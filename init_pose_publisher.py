@@ -19,7 +19,8 @@ class InitPosePublisher(Node):
             'joint4_to_joint3',
             'joint5_to_joint4',
             'joint6_to_joint5',
-            'joint6output_to_joint6'
+            'joint6output_to_joint6',
+            'gripper_controller'
         ]
         msg.position = [0.0] * len(msg.name)
 
