@@ -27,10 +27,7 @@ class DancingRobot(Node):
         # Dance positions (all radians, 7 joints each)
         self.positions_list = [
             [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],          # neutral
-            [0.5, -0.5,  1.0, -0.5,  0.3, -0.3,  0.2],    # pose 1
-            [-0.5, 0.5, -1.0,  0.5, -0.3,  0.3, -0.2],    # pose 2
-            [1.0, -1.0,  0.5, -0.5,  0.8, -0.8,  0.1],    # pose 3
-            [-1.0, 1.0, -0.5,  0.5, -0.8,  0.8, -0.1],    # pose 4
+
         ]
 
         # Dance speed
